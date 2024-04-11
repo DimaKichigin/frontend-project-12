@@ -1,81 +1,77 @@
-const resources = {
-  ru: {
-    translation: {
-      login: {
-        header: 'Войти',
-        submitButton: 'Войти',
-        username: 'Ваш ник',
-        password: 'Пароль',
-        signup: 'Регистрация',
-        noAccount: 'Нет аккаунта?',
-        validation: {
-          authFailed: 'Неверные имя пользователя или пароль',
-        },
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  translation: {
+    header: {
+      mainHeader: 'Hexlet Chat',
+      goOut: 'Выйти',
+    },
+
+    login: {
+      login: 'Ваш ник',
+      password: 'Пароль',
+      loginButton: 'Войти',
+      registration: 'Регистрация',
+      noAccount: 'Нет аккаунта? ',
+      submissionFailed: 'Неверные имя пользователя или пароль',
+    },
+
+    signup: {
+      obligatoryField: 'Обязательное поле',
+      numberCharacters: 'От 3 до 20 символов',
+      minCharacters: 'Не менее 6 символов',
+      passwordsMustMatch: 'Пароли должны совпадать',
+      userName: 'Имя пользователя',
+      password: 'Пароль',
+      confirmPassword: 'Подтвердите пароль',
+      registration: 'Регистрация',
+      alreadyExists: 'Такой пользователь уже существует',
+      register: 'Зарегистрироваться',
+    },
+
+    chat: {
+      messagesCounter: {
+        messages_Nol: ' сообщений',
+        messages_one: ' сообщение',
+        messages_few: ' сообщения',
+        messages_many: ' сообщений',
       },
-      signup: {
-        header: 'Регистрация',
-        username: 'Имя пользователя',
-        password: 'Пароль',
-        confirmPassword: 'Подтвердите пароль',
-        submitButton: 'Зарегистрироваться',
-        validation: {
-          userExists: 'Такой пользователь уже существует',
-          required: 'Обязательное поле',
-          userNameLength: 'От 3 до 20 символов',
-          passwordLength: 'Не менее 6 символов',
-          passwordsMatch: 'Пароли должны совпадать',
-        },
-      },
-      navbar: {
-        logout: 'Выйти',
-        brand: 'Hexlet Chat',
-      },
-      channelModals: {
-        addChannelHeader: 'Добавить канал',
-        renameChannelHeader: 'Переименовать канал',
-        removeChannelHeader: 'Удалить',
-        cancelButton: 'Отменить',
-        submitButton: 'Отправить',
-        deleteButton: 'Удалить',
-        renameDropdown: 'Переименовать',
-        deleteDropdown: 'Удалить',
-        removeChannelBody: 'Уверены?',
-        channelAdded: 'Канал создан',
-        channelReamoved: 'Канал удалён',
-        channelRenamed: 'Канал переименован',
-        channelName: 'Имя канала',
-        manageChannel: 'Управление каналом',
-        validation: {
-          required: 'Обязательное поле',
-          channelLength: 'От 3 до 20 символов',
-          channelExists: 'Должно быть уникальным',
-        },
-      },
-      channelsBox: {
-        channels: 'Каналы',
-      },
-      chatPage: {
-        loading: 'Загрузка...',
-        getChannelsError: 'Ошибка загрузки каналов',
-        getMessagesError: 'Ошибка загрузки сообщений',
-      },
-      newMessageForm: {
-        formPlaceholder: 'Введите сообщение...',
-        ariaLabel: 'Новое сообщение',
-        sendMessageError: 'Ошибка отправки сообщения',
-        send: 'Отправить',
-        messageCount_zero: 'сообщений',
-        messageCount_one: 'сообщение',
-        messageCount_few: 'сообщения',
-        messageCount_many: 'сообщений',
-      },
-      errors: {
-        network: 'Ошибка соединения',
-        unknown: 'Неизвестная ошибка',
-        post: 'Ошибка отправки данных',
-      },
+      enterMessage: 'Введите сообщение...',
+      newMessage: 'Новое сообщение',
+    },
+
+    modals: {
+      addChannel: 'Добавить канал',
+      obligatoryField: 'Обязательное поле',
+      numberCharacters: 'От 3 до 20 символов',
+      mustUnique: 'Должно быть уникальным',
+      cancel: 'Отменить',
+      send: 'Отправить',
+      deleteChannel: 'Удалить канал',
+      sure: 'Уверены?',
+      delete: 'Удалить',
+      renameChannel: 'Переименовать канал',
+      channelManagement: 'Управление каналом',
+    },
+
+    errorPage: {
+      notFound: 'Страница не найдена',
+    },
+
+    channels: {
+      notFoundChannel: 'Канал не найден',
+      delete: 'Удалить',
+      rename: 'Переименовать',
+      channels: 'Каналы',
+      channelCreated: 'Канал создан',
+      channelRenamed: 'Канал переименован',
+      channelDeleted: 'Канал удалён',
+      channelsName: 'Имя канала',
+      plus: '+',
+    },
+
+    error: {
+      networkError: 'Ошибка соединения',
+      dataLoadingError: 'Ошибка в загрузке данных',
     },
   },
 };
-
-export default resources;

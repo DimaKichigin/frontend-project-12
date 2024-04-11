@@ -1,16 +1,24 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/DimaKichigin/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DimaKichigin/frontend-project-12/actions)",
-  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "description": "Chat (slack)",
+  "main": "frontend/src/index.js",
   "scripts": {
     "build": "npm run build --prefix frontend",
     "start": "npx start-server -s ./frontend/build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "cd frontend && npm ci"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevHope/frontend-project-12.git"
+  },
+  "author": "Dima Kichigin",
   "license": "ISC",
+  "homepage": "https://github.com/DimaKichigin/frontend-project-12#readme",
   "dependencies": {
     "@hexlet/chat-server": "^2.0.0"
   }

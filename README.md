@@ -5,19 +5,35 @@
 
 # React chat app
 
-A simplified version of Slack chat. You can try the [app here](https://frontend-project-12-6mj7.onrender.com)
+A simplified version of Slack chat. You can test the [application here](https://app-frontend-project-12.onrender.com)
+---
+
+## Examples of using
+
+#### Registration
+
+![Registration](/frontend/public/registration.png)
+
+#### Chat
+
+![Chat](/frontend/public/chat.png)
+
+#### New channel
+
+![Channel](/frontend/public/channel.png)
 
 ---
 
-# Installation & Usage
+
+## Installation & Usage
 
 To run locally on your machine (make sure that you have node.js and npm installed)
 
-## Requirements
+### Requirements
 
 node.js 16.0+
 
-## Install
+### Install
 
 ###### Clone the repository:
 
@@ -45,15 +61,15 @@ npm start
 ```
 ---
 
-## App features
+### App features
 
 * Ability to register a new user / to login an existing user
 * Two default chat channels
 * Ability to create new channels
 * Created channels can be deleted or renamed
----
 
-## Tech stack
+
+### Tech stack
 
 * React/React Hooks + Redux Toolkit
 * React Router v6
@@ -67,3 +83,6 @@ npm start
 * ESLint
 * Rollbar
 * Render
+
+
+

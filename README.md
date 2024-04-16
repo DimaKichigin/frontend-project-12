@@ -1,24 +1,25 @@
-#### Hexlet tests and linter status
+##### Hexlet tests and linter status
 
 [![Actions Status](https://github.com/DimaKichigin/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DimaKichigin/frontend-project-12/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f259e9347b8919186939/maintainability)](https://codeclimate.com/github/DimaKichigin/frontend-project-12/maintainability)
 
 # React chat app
 
-A simplified version of Slack chat. You can test the [application here](https://app-frontend-project-12.onrender.com)
+A simplified version of Slack chat. You you can try the [application here](https://app-frontend-project-12.onrender.com)
+
 ---
 
-## Examples of using
+## Application examples
 
-#### Registration
+*Registration*
 
 ![Registration](/frontend/public/registration.png)
 
-#### Chat
+*Chat*
 
 ![Chat](/frontend/public/chat.png)
 
-#### New channel
+*New channel*
 
 ![Channel](/frontend/public/channel.png)
 
